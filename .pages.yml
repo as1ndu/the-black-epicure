@@ -1,0 +1,49 @@
+media:
+  input: public
+  output: /
+
+content:
+
+# Posts
+  - name:  posts
+    type:  collection
+    label: Posts
+    path:  data/blog
+    view:
+      fields: [title, date]
+      primary: title
+    fields:
+      - { name: title,       label: Title,            type: string,    required: true, default: "Title"       }
+      - { name: draft,       label: Draft,            type: boolean,   required: true, default: true          }
+      - { name: date,        label: Publication Date, type: string,    required: true, default: "1970-12-31"  }
+      - { name: tags,        label: Tags,             type: code,      required: true, default: "[]"          }
+      - { name: summary,     label: Description,      type: text,      required: true, default: "Description" }
+      - { name: body,        label: Body,             type: text,      required: true, default: "Body"        }
+
+# # Pages
+#   - name:  about
+#     label: About page
+#     type:  file
+#     path:  src/content/about.md
+#     fields:
+#       - { name: title, label: Title, type: string }
+#       - { name: description, label: Description,  type: text}
+#       - { name: body, label: Body, type: text}
+
+  - name:  now
+    label: Now Page
+    type:  file
+    path:  data/now
+    fields:
+      # - { name: title,       label: Title, type: string }
+      # - { name: description, label: Description,  type: text}
+      - { name: body, label: Body, type: text}
+
+  - name:  roll
+    label: Blog Roll
+    type:  file
+    path:  data/roll
+    fields:
+      # - { name: title,  label: Title, type: string }
+      # - { name: description, label: Description,  type: text}
+      - { name: body, label: Body, type: text}
