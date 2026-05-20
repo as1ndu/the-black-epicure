@@ -16,7 +16,7 @@
 			// Self-reference service binding, the service name must match the worker name
 			// see https://opennext.js.org/cloudflare/caching
 			"binding": "WORKER_SELF_REFERENCE",
-			"service": "tailwind-nextjs-starter-blog"
+			"service": "the-black-epicure"
 		}
 	],
 	"images": {
