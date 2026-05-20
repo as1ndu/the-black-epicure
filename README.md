@@ -1,4 +1,4 @@
-# Personal Blog
+# My Personal Blog
 
 Running at [https://asindu.xyz](https://asindu.xyz)
 
