@@ -1,5 +1,5 @@
 media:
-  input: public
+  input: public/static/images/posts
   output: /
 
 content:
@@ -20,20 +20,20 @@ content:
       - { name: summary,     label: Description,      type: text,      required: true, default: "Description" }
       - { name: body,        label: Body,             type: text,      required: true, default: "Body"        }
 
-# # Pages
-#   - name:  about
-#     label: About page
-#     type:  file
-#     path:  src/content/about.md
-#     fields:
-#       - { name: title, label: Title, type: string }
-#       - { name: description, label: Description,  type: text}
-#       - { name: body, label: Body, type: text}
+# Pages
+  - name:  about
+    label: About page
+    type:  file
+    path:  data/authors/default.mdx
+    fields:
+      # - { name: title, label: Title, type: string }
+      # - { name: description, label: Description,  type: text}
+      - { name: body, label: Body, type: text}
 
   - name:  now
     label: Now Page
     type:  file
-    path:  data/now
+    path:  data/now/now.mdx
     fields:
       # - { name: title,       label: Title, type: string }
       # - { name: description, label: Description,  type: text}
@@ -42,7 +42,7 @@ content:
   - name:  roll
     label: Blog Roll
     type:  file
-    path:  data/roll
+    path:  data/roll/roll.mdx
     fields:
       # - { name: title,  label: Title, type: string }
       # - { name: description, label: Description,  type: text}

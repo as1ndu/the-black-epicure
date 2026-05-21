@@ -6,8 +6,8 @@ const siteMetadata = {
   description: `Sometimes I feel like saying something. So, I put my words here.`,
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://the-black-epicure.asxndu.workers.dev/',
-  siteRepo: 'https://github.com/as1ndu/the-black-epicure',
+  siteUrl: 'https://asindu.xyz/',
+  siteRepo: 'https://github.com/as1ndu/asindu.github.io',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   // mastodon: 'https://mastodon.social/@mastodonuser',
