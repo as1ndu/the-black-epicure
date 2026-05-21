@@ -7,6 +7,14 @@
 		"nodejs_compat",
 		"global_fetch_strictly_public"
 	],
+	"unsafe": {
+		"bindings": [
+			{
+				"name": "eval",
+				"type": "unsafe_eval"
+			}
+		]
+	},
 	"assets": {
 		"directory": ".open-next/assets",
 		"binding": "ASSETS"
@@ -23,5 +31,9 @@
 		// Enable image optimization
 		// see https://opennext.js.org/cloudflare/howtos/image
 		"binding": "IMAGES"
+	},
+	"observability": {
+		"enabled": true,
+		"head_sampling_rate": 1
 	}
 }
