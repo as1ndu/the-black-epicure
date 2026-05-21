@@ -19,7 +19,7 @@ content:
       - { name: draft,       label: Draft,            type: boolean,   required: true,  default: true          }
       - { name: date,        label: Publication Date, type: string,    required: true,  default: "1970-12-31"  }
       - { name: summary,     label: Description,      type: text,      required: true,  default: "Description" }
-      - { name: tags,        label: Tags,             type: string,    required: false, list: true,            }
+      - { name: tags,        label: Tags,                              required: false, list: true,            }
       - { name: body,        label: Body,             type: text,      required: true,  default: "Body"        }
 
 # Pages
