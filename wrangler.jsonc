@@ -10,7 +10,7 @@
 	"unsafe": {
 		"bindings": [
 			{
-				"name": "eval",
+				"name": "EVAL",
 				"type": "unsafe_eval"
 			}
 		]
