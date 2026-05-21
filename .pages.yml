@@ -18,7 +18,7 @@ content:
       - { name: title,       label: Title,            type: string,    required: true,  default: "Title"       }
       - { name: draft,       label: Draft,            type: boolean,   required: true,  default: true          }
       - { name: date,        label: Publication Date, type: string,    required: true,  default: "1970-12-31"  }
-      - { name: tags,        label: Tags,             type: string,    required: false, default: ""          }
+      - { name: tags,        label: Tags,             type: list,      required: false, default: ""            }
       - { name: summary,     label: Description,      type: text,      required: true,  default: "Description" }
       - { name: body,        label: Body,             type: text,      required: true,  default: "Body"        }
 
