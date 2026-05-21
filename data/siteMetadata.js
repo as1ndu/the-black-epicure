@@ -6,8 +6,8 @@ const siteMetadata = {
   description: `Sometimes I feel like saying something. So, I put my words here.`,
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://asindu.xyz',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://the-black-epicure.asxndu.workers.dev/',
+  siteRepo: 'https://github.com/as1ndu/the-black-epicure',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   // mastodon: 'https://mastodon.social/@mastodonuser',
@@ -73,7 +73,7 @@ const siteMetadata = {
       metadata: '0',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'light',
+      theme: 'dark',
       // theme when dark mode
       darkTheme: 'transparent_dark',
       // If the theme option above is set to 'custom`
