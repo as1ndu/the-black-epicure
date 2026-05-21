@@ -29,7 +29,7 @@ export default function Comments({ slug }: { slug: string }) {
       strict="0"
       reactions-enabled="1"
       emitMetadata="1"
-      input-position="top"
+      inputPosition="top"
       theme="catppuccin_frappe"
       lang="en"
       loading="lazy"
