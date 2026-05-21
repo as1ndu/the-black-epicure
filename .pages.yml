@@ -9,6 +9,7 @@ content:
     type:  collection
     label: Posts
     path:  data/blog
+    filename: "{year}-{month}-{day}-{fields.title}.mdx"
     view:
       fields: [title, date]
       primary: title
