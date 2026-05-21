@@ -2,20 +2,11 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"main": ".open-next/worker.js",
 	"name": "the-black-epicure",
-	"compatibility_date": "2024-05-20",
+	"compatibility_date": "2025-05-21",
 	"compatibility_flags": [
 		"nodejs_compat",
 		"global_fetch_strictly_public",
-		"unsafe_eval"
 	],
-	// "unsafe": {
-	// 	"bindings": [
-	// 		{
-	// 			"name": "EVAL",
-	// 			"type": "unsafe_eval"
-	// 		}
-	// 	]
-	// },
 	"assets": {
 		"directory": ".open-next/assets",
 		"binding": "ASSETS"
