@@ -1,10 +1,11 @@
 {
   "personal": 45,
-  "security": 1,
+  "opinion": 1,
   "artificial-intelligence": 1,
   "cognitive-science": 1,
-  "software-review": 1,
-  "book-review": 1,
+  "security": 1,
   "programming-languages": 1,
-  "iversonian-thinking": 1
+  "iversonian-thinking": 1,
+  "software-review": 1,
+  "book-review": 1
 }
